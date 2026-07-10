@@ -2,9 +2,9 @@
 
 > **Goal:** predict the total number of rounds played in professional CS2 matchups by modelling relative team strength, then translate that prediction into positive-EV bets against market odds.
 >
-> **Status:** data infrastructure and baseline model are built. The statistical validation, deeper model architecture, and betting logic are the active roadmap.
+> **Status:** data infrastructure and baseline model are built. The statistical validation, deeper model architecture, and betting logic are the active roadmap: they still need to be done.
 
-Betting odds are prices — they aggregate the crowd's read of team form, roster changes and event context. The edge, if it exists, lives where that aggregation is wrong. This is the same problem shape as validating a trading rule, and I treat it the same way.
+Betting odds are prices — they aggregate the analysts' and bookies' read of team form, roster changes and event context. The edge, if it exists, lives where those analysis are wrong. This is the same problem shape as validating a trading rule, and I treat it the same way.
 
 ## Pipeline
 
